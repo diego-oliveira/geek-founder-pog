@@ -11,10 +11,11 @@ import {Footer} from './app/components/Footer';
 import 'angular-ui-router';
 import routesConfig from './routes';
 
+import 'angular-animate';
 import './index.scss';
 
 angular
-  .module('app', ['ui.router'])
+  .module('app', ['ui.router', 'ngAnimate'])
   .config(routesConfig)
   .service('todoService', TodoService)
   .component('app', App)

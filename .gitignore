@@ -13,4 +13,7 @@
 !/log/.keep
 !/tmp/.keep
 
+geek-founder-admin/.tmp/*
+geek-founder-admin/node_modules/*
+
 .byebug_history
