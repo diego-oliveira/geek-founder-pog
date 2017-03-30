@@ -15,5 +15,6 @@
 
 geek-founder-admin/.tmp/*
 geek-founder-admin/node_modules/*
+geek-founder-admin/dist/*
 
 .byebug_history
